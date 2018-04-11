@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn);
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  background: #F7F6E4;
+  color: #2A2C31;
+  font: 16px 'Vollkorn', Georgia, Times, serif;
+}
+
+nav {
+  position: fixed;
+  bottom: 30%; right: 0px;
+}
+
+nav a {
+  display: inline-block;
+  float: right; clear: both;
+  margin: 2px 0px;
+  padding: 5px 20px 5px 10px;
+  color: #FFF;
+  font: 16px 'Ubuntu', Helvetica, Arial, sans-serif;
+  background: rgba(95,55,17,0.7);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.1s linear 0s;
+}
+
+nav a:hover, nav a.active {
+  background: #DD545C;
+  font-size: 20px;
+}
+
+section {
+  padding: 20px 180px 20px 50px;
+}
+
+section:nth-child(2n) {
+  background: #E2D5C1;
+}
+
+h2 {
+  color: #9C5865;
+  font: 700 30px 'Ubuntu', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+p:last-child {
+  padding-bottom: 0px;
+}
